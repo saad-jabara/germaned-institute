@@ -1,6 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-german-black: #000000;
+  --color-german-red: #DD0000;
+  --color-german-gold: #FFCE00;
+}
 
 @layer base {
   body {
